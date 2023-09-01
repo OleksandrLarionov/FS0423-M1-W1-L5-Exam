@@ -1,0 +1,152 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300;400&display=swap');
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  color: #25a2c3;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+header {
+  background-color: black;
+    text-align: start;
+}
+
+header img {
+  width: 375px;
+    padding: 58px;
+}
+
+.hero {
+  padding: 6em 7em;
+    text-align: center;
+    font-size: 4em;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero p {
+  padding: 1em;
+    line-height: 1.65;
+}
+
+.hero button {
+  background-color: #f04c2f ;
+    border-style: none;
+    border-radius: 15px;
+    padding: 2em 3em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.hero  button a {
+  color: white;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0.4em;
+}
+
+.section-1 {
+  padding: 4em 7em;
+  text-align: start;
+  font-size: 2.5em;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.65;
+}
+
+.section-1 .computer img {
+  float: left;
+    width: 800px;
+    border-radius: 100em;
+    padding-right: 2em;
+}
+.section-2 {
+  padding: 4em 7em;
+    text-align: center;
+    font-size: 4em;
+    line-height: 1.65;
+    background-color:#e22d0e ;
+    margin-top: 11rem;
+}
+.section-2 h2 {
+  color: white;
+}
+
+.section-2 .corsivo {
+  text-align: center;
+  font-style: italic;
+  color: white;
+}
+.section-2 .author p{
+  text-align: center;
+  color: white;
+}
+
+.section-2 .author .ceo_epi {
+  font-size: 0.7em;
+  
+}
+.box {
+  width: 654px;
+    margin: 10rem;
+    float: left;
+    border: 2px solid #dee1e3;
+    font-size: 1.5em;
+    padding: 5em;
+}
+
+
+
+.box p {
+  padding: 2em;
+}
+.box h2 {
+  padding-top: 1em;
+}
+
+aside {
+  text-align: center;
+}
+
+footer {
+    margin-top: 30em;
+    text-align: center;
+    background-color:#25a2c3;
+    color: white;
+    padding-block: 2em;
+    font-size: 3em;
+}
+
+footer p {
+  text-align: left;
+  padding-left: 40%;
+}
+footer h2 {
+  color: white;
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+.line {
+  border-bottom: 2px solid white;
+  margin: 0 30em;
+  margin-block: 1em;
+}

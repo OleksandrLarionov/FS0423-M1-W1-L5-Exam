@@ -1,0 +1,185 @@
+/* Your styles here */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300;400&display=swap');
+
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    box-sizing: border-box;
+  }
+
+  h1,
+  h2,
+  h3 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+
+  header {
+    background-color: black;
+    text-align: center;
+  }
+
+  header img {
+    width: 170px;
+    padding: 1.5em 0;
+  }
+
+  .hero button {
+    border: none;
+    background-color: #f04c2f;
+    color: white;
+    border-radius: 3px;
+    padding: 1em 1.5em;
+    margin: 2.5em;
+  }
+  .hero button a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .hero {
+    background-image: url(../images/banner.jpg);
+    background-size: contain;
+    text-align: center;
+    padding: 2em;
+  }
+  .hero h1 {
+    font-size: 2em;
+  }
+  
+  .description {
+  padding-top: 1em;
+  }
+
+  section img {
+    width: 100%;
+  }
+
+  .section-1 {
+    text-align: center;
+    padding: 2em;
+    padding-top: 0.5em;
+  }
+
+  .section-1 h3 {
+    padding: 1.8em 0;
+  }
+  .section-1 p {
+        padding: 0 2em;
+  }
+  .computer {
+    padding-top: 1.8em;
+  }
+
+  .computer img {
+    border-radius: 100em;
+  }
+
+  .section-2 {
+    background-color:  #e22d0e;
+    padding: 0 2em;
+    
+    
+  }
+  .section-2 h2 {
+    color: white;
+    text-align: center;
+  }
+  .section-2 .epicode {
+    padding: 1em 0;
+    font-size:  2.203em;
+    
+  }
+  .section-2 .corsivo {
+    text-align: center;
+    font-style: italic;
+    color: white;
+  }
+
+  .section-2 .author {
+    padding: 1.8em 0;
+  }
+
+  .section-2 .author p{
+    text-align: center;
+    color: white;
+  }
+
+  .section-2 .author .ceo_epi {
+    font-size: 0.7em;
+    
+  }
+
+  .your-pc {
+    padding: 0 2em;
+    padding-bottom: 2.8em;
+    padding-top: 4em;
+  }
+
+  
+  .work-with-us,
+  .work-now {
+    padding: 0 2em;
+    padding-bottom: 2.8em;
+    
+  }
+
+  .box {
+    border: 2px solid #dee1e3;
+  }
+
+  aside {
+    text-align: center;
+  }
+
+  .box p {
+    padding: 2em;
+  }
+  .box h2 {
+    padding-top: 1em;
+  }
+
+
+  footer {
+    background-color: #25a2c3;
+    text-align: center;
+    color:#c8e7f0;
+  }
+
+  footer p i {
+    color: white;
+  }
+
+  footer h2{
+    color: white;
+    font-size: 1.6em;
+    padding: 0.5em;
+    padding-top: 2em;
+  }
+
+  footer p a {
+    color:  #c8e7f0;
+  }
+
+  footer p {
+    color:#c8e7f0;
+
+  }
+
+  .line {
+    border-bottom: 1px solid #c8e7f0;
+    margin: 0 7em;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  .line + p {
+    padding-bottom: 5em;
+  }
